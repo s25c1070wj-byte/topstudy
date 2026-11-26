@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 Dewa Hansana
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+from collections import Counter
+
+items = [line.strip() for line in sys.stdin if line.strip()]
+
+counts = Counter(items)
+
+for name, count in counts.most_common():
+    print(f"{name} {count}")
