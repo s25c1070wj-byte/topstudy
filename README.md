@@ -15,3 +15,16 @@ $ bash test.bash
 Dewa Hansana
 ## Licence
 BSD-3-Clause
+## Example
+Input
+
+math
+english
+math
+python
+math
+Output
+
+math 3
+english 1
+python 1
